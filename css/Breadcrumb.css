@@ -1,0 +1,42 @@
+main.main div.Breadcrumb{
+  width: 800px;
+  margin: 20px auto 50px;
+}
+
+main.main div.Breadcrumb ol.Breadcrumb_list{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+main.main div.Breadcrumb ol.Breadcrumb_list li{
+  display: inline-block;
+}
+
+main.main div.Breadcrumb ol.Breadcrumb_list li.last{
+  font-size: 16px;
+  color: #DCC1B0;
+  background-color: #847072;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+main.main div.Breadcrumb ol.Breadcrumb_list li a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #847072;
+}
+
+main.main div.Breadcrumb ol.Breadcrumb_list > li::after{
+  content: "/";
+  font-size: 16px;
+  display: inline-block;
+  margin: auto 10px;
+  color: #847072;
+}
+
+main.main div.Breadcrumb ol.Breadcrumb_list > li:last-child::after{
+  content: "";
+  display: none;
+}

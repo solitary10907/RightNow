@@ -1,0 +1,923 @@
+a{
+  display: inline-block;
+}
+
+.lSSlideOuter .lSPager.lSpg{
+  transform: translateY(-20px);
+}
+
+body div.bkcolor1{
+  background: linear-gradient(333deg,white 50%,#DCC1B0 50%);
+  height: 980px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 2000px;
+  left: 0px;
+  z-index: 0;
+}
+
+body div.bkcolor2{
+  height: 600px;
+  width: 600px;
+
+  position: absolute;
+  bottom: 1600px;
+  right: 0px;
+  background-color: #DCC1B0;
+  opacity: .4;
+
+}
+
+body div.bkcolor3{
+  background: linear-gradient(333deg,#DCC1B0 50%,white 50%);
+  height: 980px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 120px;
+  left: 0px;
+}
+
+main.main{
+  max-width: 1200px;
+  margin: 0px auto;
+  position: relative;
+  border:　3px solid red;
+}
+
+div.wrap div.Carousel{
+  width: 100%;
+}
+
+body main.main div.paragraph1{
+  width: 100%;
+  padding: 90px 0px;
+  margin: 0px auto 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body main.main div.paragraph1 div.text1{
+  margin-left: 10px;
+
+}
+
+body main.main div.paragraph1 div.text1 a{
+  text-decoration: none;
+}
+
+body main.main div.paragraph1 div.text1 h2{
+  font-size: 36px;
+  font-weight: bold;
+  color: #847072;
+
+}
+
+body main.main div.paragraph1 div.text1 > p{
+  font-size: 16px;
+  color: #847072;
+  line-height: 30px;
+}
+
+body main.main div.paragraph1 div.choice{
+  /* border: 1px solid red; */
+}
+
+body main.main div.paragraph1 div.choice img{
+    width: 667px;
+}
+
+body main.main div.paragraph2{
+margin: 0px auto;
+width: 100%;
+height: 980px;
+position: relative;
+}
+
+body main.main div.paragraph2 a.a1{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+}
+
+body main.main div.paragraph2 a.a2{
+  position: absolute;
+  top: 500px;
+  left: 25%;
+  transform: translateX(-50%) translateY(20px);
+}
+
+body main.main div.paragraph2 a.a3{
+  position: absolute;
+  top: 500px;
+  left: 75%;
+  transform: translateX(-50%) translateY(20px);
+}
+
+body main.main div.paragraph2 h2{
+  font-size: 36px;
+  font-weight: bold;
+  color: #847072;
+  position: absolute;
+  top: -25px;
+  left: 0px;
+}
+
+body main.main div.paragraph2 h3{
+  font-size: 24px;
+  color: #847072;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* body main.main div.bkcolor1 div.paragraph2 div.cover{
+   width: 360px;
+   height: 360px;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: 2;
+} */
+
+/* body main.main div.bkcolor1 div.paragraph2 div.cover p{
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+} */
+
+/* body main.main div.bkcolor1 div.paragraph2 div.cover:hover{
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: .2;
+  z-index: 2;
+} */
+
+/*
+放在外層 背景色蓋不過去
+放在同層 字會被吃掉 字也額外加上去 火會被蓋到
+要問老師
+*/
+
+body main.main div.paragraph2 div.food1{
+  width: 360px;
+  height: 360px;
+  background-image: url("./../images/topfood1.jpg");
+  background-position: center;
+  background-size: cover;
+  vertical-align: middle;
+
+
+  position: relative;
+  z-index: 0;
+}
+body main.main div.paragraph2 div.food1:hover{
+  box-shadow: 0 0 15px 15px rgba(20%,20%,40%,0.5);
+}
+
+body main.main div.paragraph2 div.food2{
+  width: 360px;
+  height: 360px;
+  background-image: url("./../images/topfood2.jpg");
+  background-position: center;
+  background-size: cover;
+  vertical-align: middle;
+
+
+  position: relative;
+}
+body main.main div.paragraph2 div.food2:hover{
+  box-shadow: 0 0 15px 15px rgba(20%,20%,40%,0.5);
+}
+
+body main.main div.paragraph2 div.food3{
+  width: 360px;
+  height: 360px;
+  background-image: url("./../images/topfood3.jpg");
+  background-position: center;
+  background-size: cover;
+  vertical-align: middle;
+
+  position: relative;
+}
+body main.main div.paragraph2 div.food3:hover{
+  box-shadow: 0 0 15px 15px rgba(20%,20%,40%,0.5);
+}
+
+body main.main div.paragraph2 div.fire{
+  height: 300px;
+  width: 240px;
+  background-image: url("./../images/fire.png");
+  background-size: cover;
+
+  position: absolute;
+  top: -40%;
+  left: -50%;
+  transform: translateX(40%) rotateZ(-30deg);
+}
+
+body main.main div.paragraph2 div.fire h3{
+  font-size: 35px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body main.main div.paragraph2 div.fire p{
+  font-size: 50px;
+  color:  #847072;
+  font-weight: bold;
+  position: absolute;
+  top: 58%;
+  left: 45%;
+  transform: rotateZ(30deg);
+}
+
+
+body main.main div.paragraph2 div.foodtext{
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 5;
+}
+
+body main.main div.bkcolor22{
+  height: 600px;
+  width: 600px;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #DCC1B0;
+  opacity: .4;
+
+}
+
+body main.main div.paragraph3{
+  height: 860px;
+  width: 100%;
+  margin: 0px auto;
+
+  position: relative;
+}
+
+body main.main div.paragraph3 h2{
+  font-size: 36px;
+  color:  #847072;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+body main.main div.paragraph3 h3{
+  font-size: 24px;
+  color:  #847072;
+  text-align: center;
+  padding-top: 60px;
+  transform: translateY(40px);
+}
+
+body main.main div.paragraph3 div.alcohol1{
+  height: 600px;
+  width: 600px;
+
+  background-image: url("./../images/alcohol1.jpg");
+  background-size: cover;
+  position: absolute;
+  background-position: center none;
+  top: 190px;
+  left: 0px;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph3 div.alcohol1:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+
+body main.main div.paragraph3 div.alcohol2{
+  height: 280px;
+  width: 280px;
+
+  background-image: url("./../images/alcohol2.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 190px;
+  right: 300px;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph3 div.alcohol2:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+body main.main div.paragraph3 div.alcohol3{
+  height: 280px;
+  width: 280px;
+
+  background-image: url("./../images/alcohol3.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 190px;
+  right: 0px;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph3 div.alcohol3:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+body main.main div.paragraph3 div.alcohol4{
+  width: 580px;
+  height: 300px;
+
+  background-image: url("./../images/alcohol4.jpg");
+  background-position: center center;
+  position: absolute;
+  top: 490px;
+  right: 0px;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph3 div.alcohol4:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+body main.main div.paragraph3 div.alcoholtext{
+  font-size: 36px;
+  white-space: nowrap;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body main.main div.paragraph3 div.alcohol1 div.alcoholtext{
+font-size: 60px;
+}
+
+body main.main div.paragraph4{
+  height: 980px;
+  width: 100%;
+  margin: 0px auto;
+
+  position: relative;
+}
+
+body main.main div.paragraph4 h3{
+  font-size: 24px;
+  color:  #847072;
+  text-align: center;
+  padding-top: 96px;
+}
+body main.main div.paragraph4 a.a1{
+  position: relative;
+  top: 60px;
+  left: 0px;
+}
+
+body main.main div.paragraph4 a.a2{
+  position: relative;
+  top: 60px;
+  left: 20px;
+}
+body main.main div.paragraph4 a.a3{
+  position: relative;
+  top: 370px;
+  left: -560px;
+}
+body main.main div.paragraph4 a.a4{
+  position: relative;
+  top: 370px;
+  left: -540px;
+}
+body main.main div.paragraph4 a.a5{
+  position: relative;
+  top: -230px;
+  left: 600px;
+}
+
+body main.main div.paragraph4 div.play1{
+  height: 290px;
+  width: 280px;
+
+  background-image: url("./../images/play1.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph4 div.play1:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+body main.main div.paragraph4 div.play2{
+  height: 290px;
+  width: 280px;
+
+  background-image: url("./../images/play2.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph4 div.play2:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+body main.main div.paragraph4 div.play3{
+  height: 290px;
+  width: 280px;
+
+  background-image: url("./../images/play3.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph4 div.play3:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+body main.main div.paragraph4 div.play4{
+  height: 290px;
+  width: 280px;
+
+  background-image: url("./../images/play4.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph4 div.play4:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+body main.main div.paragraph4 div.play5{
+  height: 600px;
+  width: 600px;
+
+  background-image: url("./../images/play5.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  opacity: .7;
+  transition: all 0.5s;
+}
+body main.main div.paragraph4 div.play5:hover{
+  box-shadow: 0 0 15px 10px rgba(20%,20%,40%,0.5);
+  opacity: 1;
+}
+
+body main.main div.paragraph4 div.playtext{
+  font-size: 36px;
+  white-space: nowrap;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body main.main div.paragraph4 div.play5 div.playtext{
+  font-size: 60px;
+}
+
+@media (max-width: 1800px) and (min-width: 1651px){
+  body div.bkcolor2{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    bottom: 1700px;
+    right: 0px;
+    opacity: .4;
+  }
+}
+
+@media (max-width: 1650px){
+  body div.bkcolor2{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 1750px;
+    right: 0px;
+    opacity: .4;
+  }
+}
+
+@media (max-width: 1220px) and (min-width: 951px){
+  body main.main div.paragraph1{
+    padding: 50px 0px;
+    width: 900px;
+  }
+  body main.main div.paragraph2{
+    height: 800px;
+    width: 900px;
+  }
+  body main.main div.paragraph3{
+    height: 700px;
+    width: 900px;
+  }
+  body main.main div.paragraph4{
+    height: 750px;
+    width: 900px;
+  }
+  body div.bkcolor1{
+    position: absolute;
+    bottom: 1430px;
+  }
+  body div.bkcolor2{
+    position: absolute;
+    bottom: 1400px;
+    height: 300px;
+    width: 300px;
+  }
+  body main.main div.paragraph1 div.choice img{
+      width: 500px;
+  }
+  body main.main div.paragraph2 div.food1{
+    height: 300px;
+    width: 300px;
+  }
+
+  body main.main div.paragraph2 div.food2{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -80px;
+
+  }
+  body main.main div.paragraph2 div.food3{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -80px;
+  }
+  body main.main div.paragraph2 div.fire{
+    height: 240px;
+    width: 180px;
+  }
+  body main.main div.paragraph2 div.fire h3{
+    font-size: 30px;
+  }
+  body main.main div.paragraph2 div.fire p{
+    font-size: 40px;
+  }
+  body main.main div.paragraph3 div.alcohol1{
+    height: 450px;
+    width: 450px;
+  }
+  body main.main div.paragraph3 div.alcohol2{
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 190px;
+    right: 225px;
+
+  }
+  body main.main div.paragraph3 div.alcohol3{
+    height: 200px;
+    width: 200px;
+  }
+  body main.main div.paragraph3 div.alcohol4{
+    height: 225px;
+    width: 425px;
+    position: absolute;
+    top: 415px;
+    right: 0px;
+  }
+  body main.main div.paragraph4 h3{
+    padding-top: 60px;
+  }
+  body main.main div.paragraph4 div.play1{
+    height: 212.5px;
+    width: 200px;
+  }
+  body main.main div.paragraph4 div.play2{
+    height: 212.5px;
+    width: 200px;
+  }
+  body main.main div.paragraph4 div.play3{
+    height: 212.5px;
+    width: 200px;
+  }
+  body main.main div.paragraph4 div.play4{
+    height: 212.5px;
+    width: 200px;
+  }
+  body main.main div.paragraph4 div.play5{
+    height: 450px;
+    width: 450px;
+  }
+  body main.main div.paragraph4 a.a1{
+    position: relative;
+    top: 60px;
+    left: 0px;
+  }
+  body main.main div.paragraph4 a.a2{
+    position: relative;
+    top: 60px;
+    left: 25px;
+  }
+  body main.main div.paragraph4 a.a3{
+    position: relative;
+    top: 297.5px;
+    left: -400px;
+  }
+  body main.main div.paragraph4 a.a4{
+    position: relative;
+    top: 297.5px;
+    left: -375px;
+  }
+ body main.main div.paragraph4 a.a5{
+   position: relative;
+   top: -152.5px;
+   left: 450px;
+ }
+}
+
+@media (max-width: 950px){
+  body main.main div.paragraph1{
+    padding: 50px 0px;
+    width: 700px;
+  }
+  body main.main div.paragraph1 div.text1 h2{
+    font-size: 30px;
+  }
+  body main.main div.paragraph1 div.choice img{
+      width: 400px;
+  }
+  body main.main div.paragraph3 div.alcohol1 div.alcoholtext{
+    font-size: 36px;
+  }
+  body main.main div.paragraph4 div.play5 div.playtext{
+    font-size: 36px;
+  }
+  body main.main div.paragraph2{
+    width: 700px;
+    height: 700px;
+  }
+  body main.main div.paragraph2 div.food1{
+    height: 250px;
+    width: 250px;
+  }
+
+  body main.main div.paragraph2 div.food2{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -150px;
+  }
+  body main.main div.paragraph2 div.food3{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -150px;
+  }
+  body main.main div.paragraph2 div.fire{
+    height: 200px;
+    width: 150px;
+  }
+  body main.main div.paragraph2 div.fire h3{
+    font-size: 24px;
+  }
+  body main.main div.paragraph2 div.fire p{
+    font-size: 32px;
+  }
+  body main.main div.paragraph2{
+    width: 700px;
+  }
+  body main.main div.paragraph3{
+    width: 100%;
+    height: 1400px;
+  }
+  body main.main div.paragraph3 div.alcohol1{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+  }
+  body main.main div.paragraph3 div.alcohol2{
+    position: absolute;
+    top: 495px;
+    left: 10%;
+    display: inline-block;
+    width: 80%;
+    height: 300px;
+  }
+  body main.main div.paragraph3 div.alcohol3{
+    position: absolute;
+    top: 800px;
+    left: 10%;
+    display: inline-block;
+    width: 80%;
+    height: 300px;
+  }
+  body main.main div.paragraph3 div.alcohol4{
+    position: absolute;
+    top: 1105px;
+    left: 10%;
+    display: inline-block;
+    width: 80%;
+    height: 300px;
+  }
+  body main.main div.paragraph4{
+    width: 100%;
+    height: 1700px;
+    margin-bottom: 5px;
+  }
+  body main.main div.paragraph4 a.a1{
+    position: relative;
+    top: 60px;
+    left: 10%;
+    width: 80%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 div.play1{
+    width: 100%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 a.a2{
+    position: relative;
+    top: 65px;
+    left: 10%;
+    width: 80%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 div.play2{
+    width: 100%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 a.a3{
+    position: relative;
+    top: 70px;
+    left: 10%;
+    width: 80%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 div.play3{
+    width: 100%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 a.a4{
+    position: relative;
+    top: 75px;
+    left: 10%;
+    width: 80%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 div.play4{
+    width: 100%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 a.a5{
+    position: relative;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+    height: 300px;
+  }
+  body main.main div.paragraph4 div.play5{
+    width: 100%;
+    height: 300px;
+  }
+  body div.bkcolor1{
+    position: absolute;
+    bottom: 3000px;
+  }
+  body div.bkcolor2{
+    position: absolute;
+    bottom: 3050px;
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (max-width: 750px){
+  body div.bkcolor1{
+    position: absolute;
+    bottom: 3200px;
+    left: 0px;
+  }
+  body div.bkcolor2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 3100px;
+    right: 0px;
+  }
+  body main.main div.paragraph3 h3{
+    margin-top: 40px;
+  }
+  body main.main div.paragraph1{
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+  }
+  body main.main div.paragraph1 div.text1{
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  body main.main div.paragraph1 div.choice img{
+    width: 80%;
+    display: block;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  body main.main div.paragraph2{
+    width: 100%;
+    height: 900px;
+  }
+  body main.main div.paragraph2 a.a1{
+    width: 80%;
+  }
+  body main.main div.paragraph2 div.food1{
+    height: 250px;
+    width: 100%;
+    position: relative;
+  }
+  body main.main div.paragraph2 a.a2{
+    width: 80%;
+    position: relative;
+    top: 260px;
+    left: 10%;
+    transform: translateX(0px) translateY(0px);
+
+  }
+  body main.main div.paragraph2 div.food2{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  body main.main div.paragraph2 a.a3{
+    width: 80%;
+    position: relative;
+    top: 245px;
+    left: 50%;
+
+  }
+  body main.main div.paragraph2 div.food3{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  body main.main div.paragraph2 div.fire{
+    position: absolute;
+    top: -9%;
+    left: -17%;
+  }
+  body main.main div.paragraph1 div.text1{
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  body main.main div.paragraph2{
+    margin-bottom: 20px;
+  }
+  body main.main div.paragraph3 h3{
+    margin-top: 40px;
+  }
+
+}

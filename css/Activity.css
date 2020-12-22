@@ -1,0 +1,579 @@
+main.main div.secondnav{
+  background-color: #847072;
+  width: 800px;
+  margin: 40px auto 20px;
+  list-style: none;
+  border-radius: 15px;
+
+}
+
+main.main div.secondnav ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+}
+
+main.main div.secondnav ul li{
+  list-style: none;
+  padding: 5px 15px;
+
+}
+
+main.main div.secondnav ul li a{
+    font-size: 24px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #DCC1B0;
+}
+
+main.main div.paragraph1{
+  /* border: 1px solid black; */
+  width: 1200px;
+  margin: 100px auto 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main.main div.paragraph1 div.title1{
+  width: 200px;
+  height: 500px;
+  background-color: #DCC1B0;
+  display: inline-block;
+
+}
+
+main.main div.paragraph1 div.title1 h1{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #847072;
+}
+
+main.main div.paragraph1 div.title1 p{
+  font-size: 16px;
+  color: #847072;
+  width: 180px;
+  margin: 0 auto;
+}
+
+main.main div.paragraph1 div div.text{
+  width: 450px;
+}
+
+main.main div.paragraph1 div.b1{
+  display: inline-flex;
+  margin-left: 100px;
+  width: 900px;
+  height: 450px;
+  align-items: center;
+}
+
+main.main div.paragraph1 div.b1 div.picture1{
+  height: 450px;
+  width: 450px;
+  display: inline-block;
+
+  background-image: url("./../images/p1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+main.main div.paragraph1 div.b1 div.text h2{
+  display: inline-block;
+  font-size: 28px;
+  color: #847072;
+  margin-left: 30px;
+}
+
+main.main div.paragraph1 div.b1 div.hearticon{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+
+  background-image: url("./../images/hearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main.main div.paragraph1 div.b1 div.hearticon:hover{
+  cursor: pointer;
+}
+main.main div.paragraph1 div.b1 div.hearticon2{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+
+  background-image: url("./../images/fullhearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main.main div.paragraph1 div.b1 div.hearticon2:hover{
+  cursor: pointer;
+}
+
+main.main div.paragraph1 div.b1 div.text p{
+  font-size: 16px;
+  color: #847072;
+  margin: 0 auto;
+  line-height: 30px;
+  width: 90%;
+}
+
+main.main div.paragraph1 div.b2{
+  display: inline-flex;
+  width: 900px;
+  height: 450px;
+  align-items: center;
+
+  background-color: #DCC1B0;
+  margin-left: 240px;
+}
+
+
+main.main div.paragraph1 div.b2 div.picture2{
+  height: 450px;
+  width: 450px;
+  display: inline-block;
+
+  background-image: url("./../images/p2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main.main div.paragraph1 div.b2 div.text h2{
+  display: inline-block;
+  font-size: 28px;
+  color: #847072;
+  margin-left: 305px;
+}
+
+main.main div.paragraph1 div.b2 div.hearticon{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  margin-left: 380px;
+
+  background-image: url("./../images/hearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+}
+main.main div.paragraph1 div.b2 div.hearticon:hover{
+  cursor: pointer;
+}
+main.main div.paragraph1 div.b2 div.hearticon2{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  margin-left: 380px;
+
+  background-image: url("./../images/fullhearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main.main div.paragraph1 div.b2 div.hearticon2:hover{
+  cursor: pointer;
+}
+
+main.main div.paragraph1 div.b2 div.text p{
+  font-size: 16px;
+  color: #847072;
+  margin: 0 auto;
+  line-height: 30px;
+
+  width: 90%;
+}
+
+main.main div.paragraph1 div.b3{
+  display: inline-flex;
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 900px;
+  height: 450px;
+  align-items: center;
+}
+
+main.main div.paragraph1 div.b3 div.picture3{
+  height: 450px;
+  width: 450px;
+  display: inline-block;
+
+  background-image: url("./../images/p3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main.main div.paragraph1 div.b3 div.text h2{
+  display: inline-block;
+  font-size: 28px;
+  color: #847072;
+  margin-left: 30px;
+}
+
+main.main div.paragraph1 div.b3 div.hearticon{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+
+  background-image: url("./../images/hearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main.main div.paragraph1 div.b3 div.hearticon:hover{
+  cursor: pointer;
+}
+main.main div.paragraph1 div.b3 div.hearticon2{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+
+  background-image: url("./../images/fullhearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main.main div.paragraph1 div.b3 div.hearticon2:hover{
+  cursor: pointer;
+}
+
+main.main div.paragraph1 div.b3 div.text p{
+  font-size: 16px;
+  color: #847072;
+  margin: 0 auto;
+  line-height: 30px;
+
+  width: 90%;
+}
+
+main.main div.paragraph1 div.b4{
+  display: inline-flex;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 900px;
+  height: 450px;
+  align-items: center;
+
+  background-color: #DCC1B0;
+  margin-left: 240px;
+}
+
+main.main div.paragraph1 div.b4 div.picture4{
+  height: 450px;
+  width: 450px;
+  display: inline-block;
+
+  background-image: url("./../images/p4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main.main div.paragraph1 div.b4 div.text h2{
+  display: inline-block;
+  font-size: 28px;
+  color: #847072;
+  margin-left: 305px;
+}
+
+main.main div.paragraph1 div.b4 div.hearticon{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  margin-left: 380px;
+
+  background-image: url("./../images/hearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+}
+main.main div.paragraph1 div.b4 div.hearticon:hover{
+  cursor: pointer;
+}
+main.main div.paragraph1 div.b4 div.hearticon2{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  margin-left: 380px;
+
+  background-image: url("./../images/fullhearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main.main div.paragraph1 div.b4 div.hearticon2:hover{
+  cursor: pointer;
+}
+
+main.main div.paragraph1 div.b4 div.text p{
+  font-size: 16px;
+  color: #847072;
+  margin: 0 auto;
+  line-height: 30px;
+
+  width: 90%;
+}
+
+main.main div.page{
+  font-size: 16px;
+  color: #847072;
+  text-align: center;
+  margin: 70px 0px;
+}
+
+main.main div.page span{
+  font-size: 16px;
+  color: #847072;
+}
+
+main.main div.page a{
+  font-size: 16px;
+
+	padding: 5px 5px;
+	color: #847072;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+main.main div.page a.-on{
+  color: #DCC1B0;
+  background-color: #847072;
+}
+
+main.main div.page a:hover{
+  background-color: #DCC1B0;
+}
+
+main.main div.page a.-on:hover{
+  background-color: #847072;
+}
+
+@media (max-width: 1230px){
+  main.main div.paragraph1{
+    width: 900px;
+  }
+  main.main div.paragraph1 div.title1{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+  }
+  main.main div.paragraph1 div.title1 p{
+    width: 90%;
+    text-align: center;
+  }
+  main.main div.paragraph1 div.b1{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  main.main div.paragraph1 div.b2{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  main.main div.paragraph1 div.b3{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  main.main div.paragraph1 div.b4{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 930px){
+  main.main div.secondnav{
+    width: 100%;
+  }
+  main.main div.secondnav ul li{
+    display: flex;
+  }
+  main.main div.secondnav ul li a{
+    align-self: center;
+  }
+  main.main div.Breadcrumb{
+    width: 90%;
+  }
+  main.main div.paragraph1{
+    width: 700px;
+  }
+  main.main div.paragraph1 div.title1 p{
+    text-align: left;
+    line-height: 20px;
+  }
+  main.main div.paragraph1 div.title1 p > br{
+    display: none;
+  }
+  main.main div.paragraph1 div.b1{
+    height: 650px;
+    width: 700px;
+    display: block;
+  }
+  main.main div.paragraph1 div.b1 div.text{
+    width: 100%;
+  }
+  main.main div.paragraph1 div.b1 div.text div.flex{
+    display: flex;
+    justify-content: center;
+  }
+  main.main div.paragraph1 div.b1 div.picture1{
+    width: 100%;
+    background-position: bottom center;
+    vertical-align: top;
+  }
+  main.main div.paragraph1 div.b1 div.text h2{
+    display: inline-block;
+    align-self: center;
+    line-height: 50px;
+    margin-left: 0;
+    margin-right: 30px;
+  }
+  main.main div.paragraph1 div.b1 div.hearticon{
+    display: inline-block;
+    margin: 10px;
+  }
+
+  main.main div.paragraph1 div.b2{
+    width: 700px;
+    height: 650px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 20px
+  }
+  main.main div.paragraph1 div.b2 div.text{
+    width: 100%;
+  }
+  main.main div.paragraph1 div.b2 div.picture2{
+    width: 100%;
+    background-position: bottom center;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  main.main div.paragraph1 div.b2 div.text div.flex{
+    display: flex;
+    justify-content: center;
+  }
+  main.main div.paragraph1 div.b2 div.text h2{
+    display: inline-block;
+    align-self: center;
+    margin-left: 0;
+    line-height: 50px;
+    margin-left: 0;
+    margin-right: 30px;
+  }
+  main.main div.paragraph1 div.b2 div.hearticon{
+    display: inline-block;
+    margin-left: 0;
+    margin: 10px;
+  }
+  main.main div.paragraph1 div.b3{
+    width: 700px;
+    height: 670px;
+    display: block;
+  }
+  main.main div.paragraph1 div.b3 div.text{
+    width: 100%;
+  }
+  main.main div.paragraph1 div.b3 div.text div.flex{
+    display: flex;
+    justify-content: center;
+  }
+  main.main div.paragraph1 div.b3 div.picture3{
+    width: 100%;
+    background-position: bottom center;
+    vertical-align: top;
+  }
+  main.main div.paragraph1 div.b3 div.text h2{
+    display: inline-block;
+    align-self: center;
+    line-height: 50px;
+    margin-left: 0;
+    margin-right: 30px;
+  }
+  main.main div.paragraph1 div.b3 div.hearticon{
+    display: inline-block;
+    margin: 10px;
+  }
+  main.main div.paragraph1 div.b4{
+    width: 700px;
+    height: 680px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 20px
+  }
+  main.main div.paragraph1 div.b4 div.text{
+    width: 100%;
+  }
+  main.main div.paragraph1 div.b4 div.picture4{
+    width: 100%;
+    background-position: bottom center;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  main.main div.paragraph1 div.b4 div.text div.flex{
+    display: flex;
+    justify-content: center;
+  }
+  main.main div.paragraph1 div.b4 div.text h2{
+    display: inline-block;
+    align-self: center;
+    margin-left: 0;
+    line-height: 50px;
+    margin-left: 0;
+    margin-right: 30px;
+  }
+  main.main div.paragraph1 div.b4 div.hearticon{
+    display: inline-block;
+    margin-left: 0;
+    margin: 10px;
+  }
+}
+@media (max-width: 750px){
+  main.main div.secondnav{
+    width: 90%;
+  }
+  main.main div.secondnav ul{
+    padding: 10px;
+  }
+  main.main div.secondnav ul li{
+    display: flex;
+    padding: 0;
+  }
+  main.main div.secondnav ul li a{
+    writing-mode: vertical-lr;
+    align-self: center;
+    padding: 0;
+  }
+  main.main div.paragraph1 div.title1{
+    height: auto;
+    padding-bottom: 20px;
+  }
+  main.main div.paragraph1{
+    width: 100%;
+  }
+  main.main div.paragraph1 div.b1{
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+  main.main div.paragraph1 div.b2{
+    height: auto;
+    width: 100%;
+  }
+  main.main div.paragraph1 div.b2 div.text{
+    margin-bottom: 15px;
+  }
+  main.main div.paragraph1 div.b3{
+    height: auto;
+    width: 100%;
+  }
+  main.main div.paragraph1 div.b4{
+    height: auto;
+    width: 100%;
+  }
+  main.main div.paragraph1 div.b4 div.text{
+    margin-bottom: 15px;
+  }
+}

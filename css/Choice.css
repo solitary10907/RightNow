@@ -1,0 +1,799 @@
+
+main.main{
+  position: relative;
+  margin-bottom: 100px;
+}
+
+main.main div.paragraph1{
+  display: flex;
+  max-width: 100%;
+}
+
+main.main div.choice{
+  width: 1000px;
+  margin: 150px auto 0;
+  position: relative;
+
+
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* display: none; */
+
+}
+main.main div.choice.op{
+  display: block;
+  margin-bottom: 100px;
+}
+main.main div.choice div.back{
+  width: 900px;
+  height: 450px;
+  background-color: #847072;
+  position: absolute;
+  left: 5%;
+  z-index: 0;
+}
+main.main div.choice div.glass{
+  width: 830px;
+  height: 360px;
+  background-color: lightgray;
+  clip-path: polygon(0 0, 100% 0 , 100% 100%, 40% 100%, 0 63%);
+  border-radius: 50px 50px 50px 0;
+  position: absolute;
+  top: 4%;
+  left: 8.5%;
+  opacity: .3;
+  z-index: 9;
+}
+main.main div.choice div.twist{
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #847072;
+  position: absolute;
+  bottom: 2.4%;
+  right: 19.3%;
+  z-index: 9;
+}
+main.main div.choice div.twist:hover{
+  cursor: pointer;
+}
+main.main div.choice div.twist div.square{
+  border: 1px solid black;
+  height: 220px;
+  width: 40px;
+  background-color: #847072;
+  box-shadow: 5px 3px 5px 2px black;
+  position: relative;
+  top: -3%;
+  left: 50%;
+  transform: translateX(-50%) rotateZ(-30deg);
+}
+main.main div.choice div.holl{
+  width: 180px;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  opacity: .8;
+  z-index: 7;
+}
+main.main div.choice div.ball1{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  z-index: 3;
+}
+main.main div.choice div.ball2{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  z-index: 7;
+}
+main.main div.choice div.ball3{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  z-index: 5;
+}
+main.main div.choice div.ball4{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  z-index: 6;
+}
+main.main div.choice div.ball5{
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 30%;
+  left: 28%;
+  z-index: 5;
+}
+main.main div.choice div.ball6{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 30%;
+  right: 7%;
+  z-index: 5;
+}
+main.main div.choice div.ball7{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 28%;
+  right: 18%;
+  z-index: 3;
+}
+main.main div.choice div.ball8{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 33%;
+  right: 40%;
+  z-index: 3;
+}
+main.main div.choice div.ball9{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  z-index: 2;
+}
+main.main div.choice div.ball10{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 20%;
+  right: 35%;
+  z-index: 2;
+}
+main.main div.choice div.ball11{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: inset -10px 5px 15px 10px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  top: 18%;
+  left: 17%;
+  z-index: 2;
+}
+main.main div.choice div.ball12{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: inset -10px 2px 15px 3px rgba(20%,20%,40%,0.5);
+  position: absolute;
+  bottom: 22%;
+  left: 12.8%;
+  z-index: 7;
+  opacity: 1;
+  transition: opacity 1s;
+}
+main.main div.choice div.ball12:hover{
+  cursor: pointer;
+}
+main.main div.choice div.ball12.front{
+  z-index: 9;
+}
+main.main div.choice div.opacity{
+  opacity: 0;
+}
+main.main div.choice div.text_back{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  opacity: 0;
+  transition: all 1s;
+}
+main.main div.choice div.text_back.-open{
+  z-index: 16;
+  opacity: 1;
+
+}
+main.main div.choice span.text{
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 300px;
+  border-radius: 30px;
+  width: 55%;
+  height: 300px;
+  text-align: center;
+  color: black;
+  background-color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+main.main div.choice img{
+  width: 100%;
+  position: relative;
+  z-index: 8;
+}
+main.main h1{
+  font-size: 36px;
+  font-weight: bold;
+
+  position: absolute;
+  bottom: 15%;
+  right: 8%;
+  z-index: 9;
+}
+
+h1.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+main.main div.right_sidebar{
+  display: flex;
+  width: 500px;
+  align-items: center;
+
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  transform: translateX(80%) translateY(-50%);
+
+  transition: transform 1s ease-in-out;
+
+  z-index: 11;
+}
+
+main.main div.right_sidebar.-open{
+  transform: translate(0%, -50%);
+}
+
+main.main div.right_sidebar h2.right_btn{
+  border: 2px solid black;
+  font-size: 16px;
+  height: 100px;
+  min-width: 100px;
+  text-align: center;
+  line-height: 100px;
+
+  background-color: #DCC1B0;
+  border-radius: 20px 0px 0px 20px;
+}
+main.main div.right_sidebar h2.right_btn:hover{
+  cursor: pointer;
+}
+
+main.main div.right_sidebar div.condition{
+  border: 2px solid black;
+  background-color: #DCC1B0;
+  border-radius: 15px 0px 0px 15px;
+}
+main.main div.right_sidebar div.condition div.title{
+  display: flex;
+  border-radius: 13px 0 0 0;
+  overflow: hidden;
+}
+main.main div.right_sidebar div.condition div.title div{
+  font-size: 36px;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  color: #869DAB;
+}
+main.main div.right_sidebar div.condition div.title div:hover{
+  cursor: pointer;
+}
+main.main div.right_sidebar div.condition div.title div.on{
+  color: #DCC1B0;
+  background-color: #847072;
+  font-weight: bold;
+  cursor: context-menu;
+}
+main.main div.right_sidebar div.condition div#play_body{
+  padding: 30px 0;
+}
+main.main div.right_sidebar div.condition div.close{
+  display: none;
+}
+main.main div.right_sidebar div.condition h3{
+  font-size: 28px;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+main.main div.right_sidebar div.condition p{
+  height: 40px;
+  width: 100px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: #869DAB;
+  display: inline-block;
+  border: 2px solid #869DAB;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 20px;
+}
+main.main div.right_sidebar div.condition p:hover{
+  cursor: pointer;
+}
+main.main div.right_sidebar div.condition p.change{
+  font-weight: bold;
+  background-color: #869DAB;
+  color: #DCC1B0;
+}
+
+div.all_back{
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  /* position: relative; */
+  display: flex;
+  z-index: 12;
+}
+div.all_back.none{
+  display: none;
+}
+div.all_back div.left{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+div.all_back div.left > div{
+ width: 100%;
+ display: flex;
+}
+div.all_back div.left > div.left2{
+ width: 100%;
+ justify-content: space-between;
+ position: relative;
+}
+div.all_back div.left > div.left2 p{
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  z-index: 8;
+}
+div.all_back div.left > div.left2 p:hover{
+  font-size: 70px;
+  cursor: pointer;
+}
+
+div.all_back div.left > div > img{
+  width: 33.333%
+}
+
+div.all_back div.right{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+div.all_back div.right > div{
+ width: 100%;
+ display: flex;
+}
+div.all_back div.right > div.right2{
+ width: 100%;
+ justify-content: space-between;
+
+ position: relative;
+}
+div.all_back div.right > div.right2 p{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  z-index: 8;
+}
+div.all_back div.right > div.right2 p:hover{
+  font-size: 70px;
+  cursor: pointer;
+}
+
+div.all_back div.right > div > img{
+  width: 33.333%
+}
+@media (max-width: 1750px) {
+  main.main div.choice{
+    width: 800px;
+    margin-bottom: 200px;
+  }
+  main.main div.choice div.back{
+    width: 720px;
+    height: 360px;
+  }
+  main.main div.choice div.glass{
+    width: 664px;
+    height: 288px;
+  }
+  main.main div.choice div.twist{
+    width: 168px;
+    height: 168px;
+  }
+  main.main div.choice div.twist div.square{
+    width: 32px;
+    height: 176px;
+    box-shadow: 4px 2.4px 4px 1.6px black;
+  }
+  main.main div.choice div.holl{
+    width: 144px;
+    height: 160px;
+  }
+  main.main div.choice div.s{
+    width: 160px;
+    height: 160px;
+    box-shadow: inset -8px 4px 12px 8px rgba(20%,20%,40%,0.5);
+  }
+  main.main div.choice div.ss{
+    width: 80px;
+    height: 80px;
+    box-shadow: inset -8px 1.6px 12px 2.4px rgba(20%,20%,40%,0.5);
+  }
+  main.main h1{
+    right: 5%;
+  }
+}
+@media (max-width: 1650px) {
+  main.main div.choice{
+    margin-bottom: 150px;
+  }
+  div.all_back div.left > div.left2 p {
+    font-size: 50px;
+  }
+  div.all_back div.right > div.right2 p {
+    font-size: 50px;
+  }
+  div.all_back div.left > div.left2 p:hover {
+    font-size: 60px;
+  }
+  div.all_back div.right > div.right2 p:hover {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1550px) {
+  main.main div.choice{
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1450px) {
+  main.main div.choice{
+    width: 700px;
+  }
+  main.main div.choice div.back{
+    width: 630px;
+    height: 315px;
+  }
+  main.main div.choice div.glass{
+    width: 581px;
+    height: 252px;
+  }
+  main.main div.choice div.twist{
+    width: 147px;
+    height: 147px;
+  }
+  main.main div.choice div.twist div.square{
+    width: 28px;
+    height: 154px;
+    box-shadow: 3.5px 2.1px 3.5px 1.4px black;
+  }
+  main.main div.choice div.holl{
+    width: 126px;
+    height: 140px;
+  }
+  main.main div.choice div.s{
+    width: 140px;
+    height: 140px;
+    box-shadow: inset -7px 3.5px 10.5px 7px rgba(20%,20%,40%,0.5);
+  }
+  main.main div.choice div.ss{
+    width: 70px;
+    height: 70px;
+    box-shadow: inset -7px 1.4px 10.5px 2.1px rgba(20%,20%,40%,0.5);
+  }
+}
+@media (max-width: 1300px) {
+  div.all_back div.left > div.left2 p {
+    font-size: 40px;
+  }
+  div.all_back div.right > div.right2 p {
+    font-size: 40px;
+  }
+  div.all_back div.left > div.left2 p:hover {
+    font-size: 50px;
+  }
+  div.all_back div.right > div.right2 p:hover {
+    font-size: 50px;
+  }
+  main.main div.choice{
+    width: 500px;
+    margin-bottom: 200px;
+  }
+  main.main div.choice div.back{
+    width: 450px;
+    height: 225px;
+  }
+  main.main div.choice div.glass{
+    width: 415px;
+    height: 180px;
+    border-radius: 12px 12px 12px 0;
+  }
+  main.main div.choice div.twist{
+    width: 105px;
+    height: 105px;
+  }
+  main.main div.choice div.twist div.square{
+    width: 20px;
+    height: 110px;
+    box-shadow: 2.5px 1.5px 2.5px 1px black;
+  }
+  main.main div.choice div.holl{
+    width: 90px;
+    height: 100px;
+  }
+  main.main div.choice div.s{
+    width: 100px;
+    height: 100px;
+    box-shadow: inset -5px 2.5px 7.5px 5px rgba(20%,20%,40%,0.5);
+  }
+  main.main div.choice div.ss{
+    width: 50px;
+    height: 50px;
+    box-shadow: inset -5px 1px 7.5px 1.5px rgba(20%,20%,40%,0.5);
+  }
+  main.main h1{
+    font-size: 24px;
+  }
+}
+@media (max-width: 1200px) {
+  main.main div.choice{
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 1100px) {
+  main.main div.choice{
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  main.main div.Breadcrumb {
+    width: 90%;
+  }
+  main.main div.choice{
+    margin-bottom: 550px;
+  }
+  div.all_back{
+    display: block;
+  }
+  div.all_back div.left{
+    width: 100%
+  }
+  div.all_back div.right{
+    display: none;
+  }
+@media (max-width: 950px) {
+  main.main div.choice{
+    margin-bottom: 500px;
+  }
+}
+@media (max-width: 900px) {
+  main.main div.choice{
+    margin-bottom: 450px;
+  }
+}
+@media (max-width: 850px) {
+  main.main div.choice{
+    margin-bottom: 400px;
+  }
+}
+
+
+}
+@media (max-width: 800px) {
+  main.main div.right_sidebar{
+    /* top: 20%; */
+  }
+  main.main div.choice{
+    margin-bottom: 350px;
+  }
+}
+@media (max-width: 750px) {
+  main.main div.choice{
+    margin-bottom: 300px;
+  }
+}
+@media (max-width: 700px) {
+  main.main div.choice{
+    margin-bottom: 250px;
+  }
+  main.main div.choice span.text{
+    width: 100%;
+    height: auto;
+  }
+  main.main div.right_sidebar{
+    transform: translateX(90%) translateY(-50%);
+  }
+  main.main div.right_sidebar h2.right_btn{
+    writing-mode: vertical-lr;
+    line-height: 50px;
+    min-width: 50px;
+  }
+
+
+}
+@media (max-width: 650px) {
+  main.main div.choice{
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 600px) {
+  main.main div.choice{
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 550px) {
+  main.main div.choice{
+    margin-bottom: 250px;
+    width: 300px;
+  }
+  main.main div.choice div.back{
+    width: 270px;
+    height: 135px;
+  }
+  main.main div.choice div.glass{
+    width: 249px;
+    height: 108px;
+    border-radius: 12px 12px 12px 0;
+  }
+  main.main div.choice div.twist{
+    width: 63px;
+    height: 63px;
+  }
+  main.main div.choice div.twist div.square{
+    width: 12px;
+    height: 66px;
+    box-shadow: 1.5px 0.9px 1.5px 0.6px black;
+  }
+  main.main div.choice div.holl{
+    width: 54px;
+    height: 60px;
+  }
+  main.main div.choice div.s{
+    width: 60px;
+    height: 60px;
+    box-shadow: inset -3px 1.5px 4.5px 3px rgba(20%,20%,40%,0.5);
+  }
+  main.main div.choice div.ss{
+    width: 30px;
+    height: 30px;
+    box-shadow: inset -3px 0.6px 4.5px 0.9px rgba(20%,20%,40%,0.5);
+  }
+  main.main h1{
+    font-size: 14px;
+    right: 3%;
+  }
+
+}
+
+@media (max-width: 500px){
+  main.main div.right_sidebar{
+    width: 320px;
+    transform: translateX(84.5%) translateY(-50%);
+    top: 40%;
+  }
+  main.main div.choice{
+    margin-bottom: 200px;
+  }
+  div#eat_body{
+    height: 400px;
+    overflow-y: scroll;
+  }
+  div#play_body{
+    height: 400px;
+    overflow-y: scroll;
+  }
+  main.main div.right_sidebar div.condition #eat_body p{
+    margin: 5px 0;
+    margin-left: 38px;
+    width: 70px;
+  }
+  main.main div.right_sidebar div.condition #play_body p{
+    margin: 5px;
+    margin-left: 80px;
+  }
+  main.main div.right_sidebar div.condition div.title div{
+    font-size: 24px;
+  }
+  main.main div.right_sidebar div.condition h3{
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 108px;
+  }
+
+
+}
+@media (max-width: 450px){
+  main.main div.choice{
+    margin-bottom: 150px;
+  }
+}
+@media (max-width: 400px){
+  main.main div.choice{
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 499px){
+  div.all_back{
+    display: none;
+  }
+  main.main div.right_sidebar{
+    top: 50%;
+  }
+  div#eat_body{
+    height: 300px;
+    overflow-y: scroll;
+  }
+  div#play_body{
+    height: 300px;
+    overflow-y: scroll;
+  }
+  body header.header div.head div.head2 nav{
+    z-index: 15;
+  }
+}

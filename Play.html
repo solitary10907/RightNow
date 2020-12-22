@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png">
+    <title>太好玩了吧 !</title>
+
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hamburger_icon.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/Play.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="sign_in_back"></div>
+      <div class="form_back">
+        <div class="form_head">
+          <div class="sign_in">
+            登入
+          </div>
+          <div class="registered">
+            註冊
+          </div>
+        </div>
+        <div class="form_body">
+          <div class="sign_in_body">
+            <form action="#" method="#">
+              <h1>會員登入</h1>
+              <input type="text" placeholder="註冊信箱" class="account">
+              <input type="password" placeholder="密碼" class="password">
+              <label for="option1" class="label1">
+                <input type="checkbox" id="option1" checked>
+               記住登入資訊
+              </label>
+              <button type="submit">登入</button>
+              <div class="link">
+                <a href="#" class="a1"><p>忘記密碼 ?</p></a>
+                <a href="#"><img src="./images/googleicon.png" alt="1"></a>
+                <a href="#"><img src="./images/linkicon2.png" alt="1"></a>
+              </div>
+            </form>
+          </div>
+          <div class="registered_body_click">
+            <form action="#" method="#">
+              <h1>註冊</h1>
+              <div>
+                <label for="username">帳號</label>
+                <input type="text" placeholder="example@mail.com" class="account" name="username">
+              </div>
+              <div>
+                <label for="password">密碼</label>
+                <input type="password" placeholder="6-15位數密碼, 請區分大小寫" class="password" name="password">
+              </div>
+              <div>
+                <label for="dbpassword">確認密碼</label>
+                <input type="password" placeholder="再次輸入您的密碼" class="password" name="dbpassword">
+              </div>
+              <span>
+                <p>註冊即表示您以閱讀並同意</p><p class="red">服務條款</p><p>及</p><p class="red">隱私權政策</p>
+              </span>
+              <button type="submit">註冊</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <header class="header">
+        <div class="head">
+          <div class="head1">
+            <a href="./index.html"><img src="./images/biglogo.png" alt="圖片未顯示"></a>
+            <div class="rightnowcolor">
+              <a href="./index.html">
+                <h1>Right Now</h1>
+              </a>
+            </div>
+          </div>
+          <div class="head2">
+            <button class="hamburger hamburger--emphatic" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+            <nav class="nav">
+              <ul>
+                <li>
+                  <a href="./index.html">首頁</a>
+                </li>
+                <li>
+                  <a href="./Choice.html">就是你了!!!</a>
+                </li>
+                <li>
+                  <a href="./Play.html" class="now">太好玩了吧!</a>
+                </li>
+                <li>
+                  <a href="./Food.html">太好吃了吧!</a>
+                </li>
+                <li class="heart">
+                  <a href="./Favorite.html">&hearts;</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="member"></div>
+          <div class="search"></div>
+        </div>
+      </header>
+      <div class="searchchat">
+        <div class="chat_head">
+          <div class="lefthead">
+            <div class="robot">
+              <img src="./images/robot.png" alt="未顯示">
+            </div>
+            <p>Right Now</p>
+          </div>
+          <div class="close">
+            <img src="./images/x.png" alt="未顯示" id="close">
+          </div>
+        </div>
+        <div class="showtext">
+          <div class="robottext">
+            <div class="robot">
+              <img src="./images/robot.png" alt="未顯示">
+            </div>
+            <p>您好 ! 請問有什麼可以為您服務的嗎 ?</p>
+          </div>
+          <div class="usetext">
+            <p>今日推薦</p>
+          </div>
+          <div class="robottext">
+            <div class="robot">
+              <img src="./images/robot.png" alt="未顯示">
+            </div>
+            <p>今日隨選推薦為<a href="./Introduction.html">帥哥滷肉飯</a>這家的麻辣滷肉飯口味很獨特喔 !</p>
+          </div>
+        </div>
+        <div class="textin">
+          <input type="text" placeholder="輸入關鍵字ex:今日推薦...">
+        </div>
+      </div>
+
+      <main class="main">
+
+
+        <div class="Breadcrumb">
+          <ol class="Breadcrumb_list">
+            <li><a href="./index.html">首頁</a></li>
+            <li class="last">太好玩了吧 !!!</li>
+          </ol>
+        </div>
+
+        <div class="secondnav">
+          <ul>
+            <li>
+              <a href="./Alcohol.html">微醺世界</a>
+            </li>
+            <li>
+              <a href="./Activity.html">歡樂時光</a>
+            </li>
+          </ul>
+        </div>
+        <a href="./Alcohol.html" class="b1">
+          <div class="background1">
+            <div id="point1"></div>
+            <span class="text1">
+              <p class="color mv1">我有酒，你有故事嗎 ?</p>
+              <p class="color mv2">喜歡喝酒後，微醺放鬆的感覺嗎 ?</p>
+              <p class="color mv3">生活壓力大，想和朋友一起稍作放縱，一起快樂</p>
+              <p class="color mv4">卻不知道該去哪裡開心 ?</p>
+              <p class="color mv5">沒問題 ! 交給我 !</p>
+              <button type="button" name="button" class="mv6">微醺世界</button>
+            </span>
+          </div>
+        </a>
+        <a href="./Activity.html">
+          <div class="background2">
+            <div id="point2"></div>
+            <span class="text2">
+              <p class="color mv01">辛苦工作了好多天</p>
+              <p class="color mv02">好不容易放假</p>
+              <p class="color mv03">想出去玩，卻完全沒有想法 ?</p>
+              <p class="color mv04">朋友們也不知道哪裡好玩 ?</p>
+              <p class="color mv05">這裡有著許多娛樂的地方</p>
+              <p class="color mv06">解決你們的煩惱</p>
+              <button type="button" name="button" class="mv07">歡樂時光</button>
+            </span>
+          </div>
+        </a>
+      </main>
+
+      <footer class="footer">
+        <p>© Copyright 2020 Rayn All rights reserved</p>
+        <div class="linkicon">
+          <a href="#"><img src="./images/linkicon1.png" class="linkicon1"></a>
+          <a href="#"><img src="./images/linkicon2.png" class="linkicon2"></a>
+          <a href="#"><img src="./images/linkicon3.png" class="linkicon3"></a>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/Play.js"></script>
+
+    </script>
+  </body>
+</html>

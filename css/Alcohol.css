@@ -1,0 +1,546 @@
+main.main{
+  margin-bottom: 100px;
+  position: relative;
+}
+body header.header div.head div.search{
+  z-index: 2;
+}
+body header.header div.head div.member{
+  z-index: 2;
+}
+
+main.main div.secondnav{
+    background-color: #847072;
+    width: 800px;
+    margin: 40px auto 20px;
+    list-style: none;
+    border-radius: 15px;
+
+  }
+
+main.main div.secondnav ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+
+main.main div.secondnav ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px 15px;
+}
+
+main.main div.secondnav ul li a{
+  font-size: 24px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #DCC1B0;
+}
+
+main.main div.paragraph1{
+  width: 1200px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+main.main div.paragraph1 div.backgroundcolor{
+  height: 350px;
+  width: 350px;
+  background-color: #DCC1B0;
+
+  position: absolute;
+  top: -10px;
+  left: -270px;
+  opacity: .5;
+  z-index: 0;
+}
+
+main.main div.paragraph1 h1{
+  font-size: 36px;
+  color: #847072;
+  position: relative;
+  z-index: 1;
+
+}
+
+main.main div.paragraph1 div.line{
+  height: 25px;
+  width: 100%;
+  background-color: #847072;
+  position: relative;
+  z-index: 1;
+}
+
+main.main div.paragraph1 div.bar1{
+  height: 285px;
+  width: 285px;
+  /* margin-top: 40px;
+  margin-right: 20px; */
+
+  background-image: url("./../images/bar1.jpg");
+  background-position: center center;
+  display: inline-block;
+  position: relative;
+}
+
+main.main div.paragraph1 a.a1{
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a2{
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a3{
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a4{
+  display: inline-block;
+  margin-top: 40px;
+}
+
+main.main div.paragraph1 a.a5{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a6{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a7{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a8{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+main.main div.paragraph1 a.a9{
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a10{
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a11{
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a12{
+  display: inline-block;
+  margin-top: 100px;
+}
+
+main.main div.paragraph1 a.a13{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a14{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a15{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a16{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+main.main div.paragraph1 a.a17{
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a18{
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a19{
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a20{
+  display: inline-block;
+  margin-top: 100px;
+}
+
+main.main div.paragraph1 a.a21{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a22{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a23{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+main.main div.paragraph1 a.a24{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+main.main div.paragraph1 div h2{
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  white-space: nowrap;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+main.main div.paragraph1 div.bar2{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar2.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar3{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar3.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar3{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar3.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar4{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar4.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar5{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar5.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar6{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar6.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar7{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar7.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar8{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar8.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar9{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar9.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar10{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar10.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar11{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar11.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar12{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar12.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar13{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar13.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar14{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar14.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar15{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar15.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar16{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar16.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar17{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar17.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar18{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar18.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar19{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar19.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar20{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar20.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar21{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar21.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar22{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar22.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar23{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar23.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.bar24{
+  height: 285px;
+  width: 285px;
+
+  background-image: url("./../images/bar24.jpg");
+  background-position: center center;
+
+  position: relative;
+}
+main.main div.paragraph1 a.none{
+  display: none;
+}
+
+@media (max-width: 1230px) and (min-width: 931px){
+  main.main div.paragraph1{
+    width: 900px;
+  }
+  main.main div.paragraph1 a.all{
+    margin-right: 22.5px;
+    margin-top: 20px;
+  }
+  main.main div.paragraph1 a:nth-child(3n){
+    margin-right: 0;
+  }
+}
+@media (max-width: 930px){
+  main.main div.secondnav{
+    width: 500px;
+  }
+  main.main div.secondnav ul li{
+    display: flex;
+  }
+  main.main div.secondnav ul li a{
+    writing-mode: vertical-lr;
+    text-align: center;
+  }
+  main.main div.Breadcrumb{
+    width: 600px;
+  }
+  main.main div.paragraph1{
+    width: 600px;
+  }
+  main.main div.paragraph1 a.all{
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  main.main div.paragraph1 a:nth-child(2n - 1){
+    margin-right: 0;
+  }
+
+}
+@media screen and (max-width: 630px){
+  main.main{
+    margin-bottom: 0;
+  }
+  main.main div.secondnav{
+    width: 80%;
+  }
+  main.main div.secondnav ul li a{
+    writing-mode: vertical-lr;
+    text-align: center;
+  }
+  main.main div.Breadcrumb{
+    width: 90%;
+  }
+  main.main div.paragraph1{
+    width: 100%;
+  }
+  main.main div.paragraph1 a.all{
+    display: block;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  main.main div.paragraph1 a div{
+    width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,75 @@
+footer.footer{
+  width: 100%;
+  padding: 20px 100px;
+  background-color: #847072;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+ footer.footer p{
+  font-size: 32px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+footer.footer a{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+footer.footer div.linkicon a img.linkicon1{
+  height: 80px;
+  width: 80px;
+
+}
+
+footer.footer div.linkicon a img.linkicon2{
+  height: 80px;
+  width: 80px;
+}
+
+footer.footer div.linkicon a img.linkicon3{
+  height: 80px;
+  width: 80px;
+}
+
+@media (max-width: 1550px) and (min-width: 1351px) {
+  footer.footer p{
+    font-size: 24px;
+  }
+}
+@media (max-width: 1350px){
+  footer.footer p{
+    font-size: 16px;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+  }
+  footer.footer{
+    justify-content: center;
+    padding: 29px 0px;
+  }
+  footer.footer div.linkicon{
+    position: relative;
+    top: -10px;
+  }
+  footer.footer div.linkicon a img.linkicon1{
+    height: 60px;
+    width: 60px;
+  }
+  footer.footer div.linkicon a img.linkicon2{
+    height: 60px;
+    width: 60px;
+  }
+  footer.footer div.linkicon a img.linkicon3{
+    height: 60px;
+    width: 60px;
+  }
+}

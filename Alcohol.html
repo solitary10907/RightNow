@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./images/logo.png">
+    <title>微醺世界</title>
+
+
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hamburger_icon.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/Breadcrumb.css">
+    <link rel="stylesheet" href="./css/Alcohol.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="sign_in_back"></div>
+    <div class="form_back">
+      <div class="form_head">
+        <div class="sign_in">
+          登入
+        </div>
+        <div class="registered">
+          註冊
+        </div>
+      </div>
+      <div class="form_body">
+        <div class="sign_in_body">
+          <form action="#" method="#">
+            <h1>會員登入</h1>
+            <input type="text" placeholder="註冊信箱" class="account">
+            <input type="password" placeholder="密碼" class="password">
+            <label for="option1" class="label1">
+              <input type="checkbox" id="option1" checked>
+             記住登入資訊
+            </label>
+            <button type="submit">登入</button>
+            <div class="link">
+              <a href="#" class="a1"><p>忘記密碼 ?</p></a>
+              <a href="#"><img src="./images/googleicon.png" alt="1"></a>
+              <a href="#"><img src="./images/linkicon2.png" alt="1"></a>
+            </div>
+          </form>
+        </div>
+        <div class="registered_body_click">
+          <form action="#" method="#">
+            <h1>註冊</h1>
+            <div>
+              <label for="username">帳號</label>
+              <input type="text" placeholder="example@mail.com" class="account" name="username">
+            </div>
+            <div>
+              <label for="password">密碼</label>
+              <input type="password" placeholder="6-15位數密碼, 請區分大小寫" class="password" name="password">
+            </div>
+            <div>
+              <label for="dbpassword">確認密碼</label>
+              <input type="password" placeholder="再次輸入您的密碼" class="password" name="dbpassword">
+            </div>
+            <span>
+              <p>註冊即表示您以閱讀並同意</p><p class="red">服務條款</p><p>及</p><p class="red">隱私權政策</p>
+            </span>
+            <button type="submit">註冊</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+        <div class="head">
+          <div class="head1">
+            <a href="./index.html"><img src="./images/biglogo.png" alt="圖片未顯示"></a>
+            <div class="rightnowcolor">
+              <a href="./index.html">
+                <h1>Right Now</h1>
+              </a>
+            </div>
+          </div>
+          <div class="head2">
+            <button class="hamburger hamburger--emphatic" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+            <nav class="nav">
+              <ul>
+                <li>
+                  <a href="./index.html">首頁</a>
+                </li>
+                <li>
+                  <a href="./Choice.html">就是你了!!!</a>
+                </li>
+                <li>
+                  <a href="./Play.html" class="now">太好玩了吧!</a>
+                </li>
+                <li>
+                  <a href="./Food.html">太好吃了吧!</a>
+                </li>
+                <li class="heart">
+                  <a href="./Favorite.html">&hearts;</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="member"></div>
+          <div class="search"></div>
+        </div>
+      </header>
+      <div class="searchchat">
+        <div class="chat_head">
+          <div class="lefthead">
+            <div class="robot">
+              <img src="./images/robot.png" alt="未顯示">
+            </div>
+            <p>Right Now</p>
+          </div>
+          <div class="close">
+            <img src="./images/x.png" alt="未顯示" id="close">
+          </div>
+        </div>
+        <div class="showtext">
+          <div class="robottext">
+            <div class="robot">
+              <img src="./images/robot.png" alt="未顯示">
+            </div>
+            <p>您好 ! 請問有什麼可以為您服務的嗎 ?</p>
+          </div>
+          <div class="usetext">
+            <p>今日推薦</p>
+          </div>
+          <div class="robottext">
+            <div class="robot">
+              <img src="./images/robot.png" alt="未顯示">
+            </div>
+            <p>今日隨選推薦為<a href="./Introduction.html">帥哥滷肉飯</a>這家的麻辣滷肉飯口味很獨特喔 !</p>
+          </div>
+        </div>
+        <div class="textin">
+          <input type="text" placeholder="輸入關鍵字ex:今日推薦...">
+        </div>
+      </div>
+
+      <main class="main">
+        <div class="secondnav">
+            <ul>
+              <li>
+                <a href="#">夜店</a>
+              </li>
+              <li>
+                <a href="#">酒吧</a>
+              </li>
+              <li>
+                <a href="#">電音派對</a>
+              </li>
+              <li>
+                <a href="#">喝酒小遊戲</a>
+              </li>
+            </ul>
+          </div>
+
+        <div class="Breadcrumb">
+          <ol class="Breadcrumb_list">
+            <li><a href="./index.html">首頁</a></li>
+            <li><a href="./Play.html">太好玩了吧 !</a></li>
+            <li class="last">微醺世界</li>
+          </ol>
+        </div>
+        <div class="paragraph1">
+          <div class="backgroundcolor"></div>
+          <h1>酒吧</h1>
+          <div class="line"></div>
+          <a href="#" class="a1 all">
+            <div class="bar1">
+              <h2>一千零一夜<br>水煙館</h2>
+            </div>
+          </a>
+          <a href="#"class="a2 all">
+            <div class="bar2">
+              <h2>Kor Taipei</h2>
+            </div>
+          </a>
+          <a href="#" class="a3 all">
+            <div class="bar3">
+              <h2>9% 酒趴</h2>
+            </div>
+          </a>
+          <a href="#" class="a4 all">
+            <div class="bar4">
+              <h2>Pong Taipei</h2>
+            </div>
+          </a>
+          <a href="#" class="a5 all">
+            <div class="bar5">
+              <h2>酒鈅酒</h2>
+            </div>
+          </a>
+          <a href="#" class="a6 all">
+            <div class="bar6">
+              <h2>Booking Bar</h2>
+            </div>
+          </a>
+          <a href="#" class="a7 all">
+            <div class="bar7">
+              <h2>Drunk Play</h2>
+            </div>
+          </a>
+          <a href="#" class="a8 all" id="point1">
+            <div class="bar8">
+              <h2>Closet<br>restaurant & bar</h2>
+            </div>
+          </a>
+          <a href="#" class="a9 all mv01">
+            <div class="bar9">
+              <h2>Hanko 60</h2>
+            </div>
+          </a>
+          <a href="#" class="a10 all mv01">
+            <div class="bar10">
+              <h2>老同安</h2>
+            </div>
+          </a>
+          <a href="#" class="a11 all mv01">
+            <div class="bar11">
+              <h2>蘇格燈慢吧</h2>
+            </div>
+          </a>
+          <a href="#" class="a12 all mv01" id="point2">
+            <div class="bar12">
+              <h2>Beau</h2>
+            </div>
+          </a>
+          <a href="#" class="a13 all mv02">
+            <div class="bar13">
+              <h2>FourPlay</h2>
+            </div>
+          </a>
+          <a href="#" class="a14 all mv02">
+            <div class="bar14">
+              <h2>R & D<br>cocktaiil lab</h2>
+            </div>
+          </a>
+          <a href="#" class="a15 all mv02">
+            <div class="bar15">
+              <h2>Ounce Taipei</h2>
+            </div>
+          </a>
+          <a href="#" class="a16 all mv02" id="point3">
+            <div class="bar16">
+              <h2>肆樓</h2>
+            </div>
+          </a>
+          <a href="#" class="a17 all mv03">
+            <div class="bar17">
+              <h2>B line by a train</h2>
+            </div>
+          </a>
+          <a href="#" class="a18 all mv03">
+            <div class="bar18">
+              <h2>TipsyTaipei<br>Cafe&BAR</h2>
+            </div>
+          </a>
+          <a href="#" class="a19 all mv03">
+            <div class="bar19">
+              <h2>Continue ?<br>Gaming Bar</h2>
+            </div>
+          </a>
+          <a href="#" class="a20 all mv03" id="point4">
+            <div class="bar20">
+              <h2>La Esquina<br>轉角酒吧</h2>
+            </div>
+          </a>
+          <a href="#" class="a21 all mv04">
+            <div class="bar21">
+              <h2>星夜<br>Starry night Bar</h2>
+            </div>
+          </a>
+          <a href="#" class="a22 all mv04">
+            <div class="bar22">
+              <h2>Bitter Burro</h2>
+            </div>
+          </a>
+          <a href="#" class="a23 all mv04">
+            <div class="bar23">
+              <h2>Mimique秘密客</h2>
+            </div>
+          </a>
+          <a href="#" class="a24 all mv04">
+            <div class="bar24">
+              <h2>Da Bar</h2>
+            </div>
+          </a>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>© Copyright 2020 Rayn All rights reserved</p>
+        <div class="linkicon">
+          <a href="#"><img src="./images/linkicon1.png" class="linkicon1"></a>
+          <a href="#"><img src="./images/linkicon2.png" class="linkicon2"></a>
+          <a href="#"><img src="./images/linkicon3.png" class="linkicon3"></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/Alcohol.js"></script>
+  </body>
+</html>

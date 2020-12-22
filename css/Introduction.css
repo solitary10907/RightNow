@@ -1,0 +1,453 @@
+main.main{
+  margin-bottom: 100px;
+}
+div.wrap div.Carousel{
+  width: 100%;
+}
+div.wrap div.none{
+  display: none;
+}
+main.main div.paragraph1{
+  width: 1200px;
+  margin: 0px auto;
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: relative;
+}
+
+main.main div.paragraph1 div.item{
+display: inline-block;
+}
+
+.lSSlideOuter .lSPager.lSGallery{
+  margin-top: 20px !important;
+}
+
+main.main div.paragraph1 div.text{
+display: inline-block;
+}
+
+main.main div.paragraph1 div.text div.title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+main.main div.paragraph1 div.text div.title h1{
+  font-size: 36px;
+  color: #847072;
+  display: inline-block;
+}
+
+main.main div.paragraph1 div.text div.title div.hearticon{
+  height: 40px;
+  width: 40px;
+  margin-top: 0px;
+  margin-left: 20px;
+
+  display: inline-block;
+
+  background-image: url("./../images/hearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main.main div.paragraph1 div.text div.title div.hearticon:hover{
+  cursor: pointer;
+}
+main.main div.paragraph1 div.text div.title div.hearticon2{
+  height: 40px;
+  width: 40px;
+  margin-top: 0px;
+  margin-left: 20px;
+
+  display: inline-block;
+
+  background-image: url("./../images/fullhearticon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main.main div.paragraph1 div.text p{
+  font-size: 16px;
+  line-height: 30px;
+  color: #847072;
+  white-space: nowrap;
+}
+
+main.main div.paragraph2{
+  width: 1200px;
+  margin: 0px auto;
+}
+
+main.main div.paragraph2 h2{
+  font-size: 36px;
+  color: #847072;
+  margin-bottom: 50px;
+}
+
+main.main div.paragraph2 p.introduction{
+  font-size: 24px;
+  color: #847072;
+  margin-bottom: 150px;
+}
+
+main.main div.paragraph2 h3{
+  font-size: 36px;
+  color: #847072;
+  margin-bottom: 50px;
+}
+
+main.main div.paragraph2 div.message{
+  border: 3px solid #847072;
+  border-radius: 15px;
+  background-color: #DCC1B0;
+  height: auto;
+  width: 600px;
+  margin: 0px auto;
+}
+
+main.main div.paragraph2 div.message div.headp1{
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+
+  /* border: 1px solid black; */
+  border-radius: 100%;
+  background-image: url("./../images/headp1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+main.main div.paragraph2 div.message div.head{
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  width: 500px;
+}
+
+main.main div.paragraph2 div.message div.head div.name{
+  margin-left: 40px;
+}
+
+main.main div.paragraph2 div.message div.head div.name h4{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main.main div.paragraph2 div.message div.head div.name p{
+  font-size: 18px;
+}
+
+main.main div.paragraph2 div.message div.body{
+  width: 500px;
+  margin: 20px auto 0px;
+}
+
+main.main div.paragraph2 div.message div.body p{
+  font-size: 20px;
+}
+
+main.main div.paragraph2 div.message div.body div.food{
+  max-width: 100%;
+  height: 400px;
+  background-image: url("./../images/food.jpg");
+  background-size: cover;
+  margin: 10px auto;
+
+}
+main.main div.paragraph2 div.message div.body div.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+main.main div.paragraph2 div.message div.body p.like{
+  display: inline-block;
+  font-size: 14px;
+}
+
+main.main div.paragraph2 div.message div.body p.leave{
+  display: inline-block;
+
+}
+
+main.main div.paragraph2 div.message div.body div.btn{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+
+
+}
+
+main.main div.paragraph2 div.message div.body div.btn a{
+  display: block;
+  width: 50%;
+  text-decoration: none;
+  color: black;
+}
+
+main.main div.paragraph2 div.message div.body div.btn  div.likebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.main div.paragraph2 div.message div.body div.btn  div.likebtn div.likeicon{
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+
+  background-image: url("./../images/fullhearticon.png");
+  background-size: cover;
+}
+
+main.main div.paragraph2 div.message div.body div.btn  div.likebtn p{
+  display: inline-block;
+  font-size: 30px;
+}
+
+main.main div.paragraph2 div.message div.body div.btn div.leavebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.main div.paragraph2 div.message div.body div.btn div.leavebtn div.leaveicon{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+
+  background-image: url("./../images/message.png");
+  background-size: cover;
+}
+
+main.main div.paragraph2 div.message div.body div.btn div.leavebtn p{
+  display: inline-block;
+  font-size: 30px;
+}
+
+main.main div.paragraph2 div.message div.foot div.head2{
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin: 10px auto;
+}
+
+main.main div.paragraph2 div.message div.foot div.head2 div.headp2{
+  height: 80px;
+  width: 80px;
+
+  display: inline-block;
+
+  border-radius: 100%;
+  background-image: url("./../images/headp2.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+main.main div.paragraph2 div.message div.foot div.head2 div.headp3{
+  height: 80px;
+  width: 80px;
+
+  display: inline-block;
+
+  border-radius: 100%;
+  background-image: url("./../images/headp3.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+main.main div.paragraph2 div.message div.foot div.head2 div.text{
+  margin-left: 10px;
+
+  position: relative;
+}
+
+main.main div.paragraph2 div.message div.foot div.head2 div.text p{
+  font-size: 16px;
+  display: inline-block;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+main.main div.paragraph2 div.message div.foot div.head2 div.text div.likebtn2{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+
+  background-image: url("./../images/hearticon.png");
+  background-size: cover;
+
+  position: absolute;
+  bottom: -8px;
+  left: 0px;
+}
+
+main.main div.paragraph2 div.message div.foot div.head2 div.text div.leavebtn2{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+
+  background-image: url("./../images/message.png");
+  background-size: cover;
+  position: absolute;
+  bottom: -8px;
+  left: 20px;
+}
+
+main.main div.paragraph2 div.message div.foot div.head3{
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+
+  position: relative;
+}
+
+main.main div.paragraph2 div.message div.foot div.head3 div.headp3{
+  height: 30px;
+  width: 30px;
+
+  display: inline-block;
+
+  /* border: 1px solid black; */
+  border-radius: 100%;
+  background-image: url("./../images/headp3.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+main.main div.paragraph2 div.message div.foot div.head3 input{
+  width: 100%;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+main.main div.paragraph2 div.message div.foot div.head3 div.smellicon{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+
+  background-image: url("./../images/smellicon.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 4px;
+  right: 70px;
+}
+
+main.main div.paragraph2 div.message div.foot div.head3 div.cameraicon{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+
+  background-image: url("./../images/cameraicon.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 4px;
+  right: 40px;
+}
+
+main.main div.paragraph2 div.message div.foot div.head3 div.stickericon{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+
+  background-image: url("./../images/stickericon.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+}
+
+@media (max-width: 1230px) {
+  main.main div.paragraph1{
+    width: 900px;
+    display: block;
+  }
+  main.main div.paragraph1 div.item{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+  }
+  main.main div.paragraph1 div.text{
+    display: block;
+    margin-top: 30px;
+  }
+  main.main div.paragraph1 div.text div.title{
+    justify-content: center;
+  }
+  main.main div.paragraph1 div.text p{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+  }
+  main.main div.paragraph2{
+    width: 900px;
+  }
+}
+@media (max-width: 920px) {
+  main.main div.Breadcrumb{
+    width: 90%;
+  }
+  main.main div.paragraph1{
+    width: 100%;
+  }
+
+  main.main div.paragraph2{
+    width: 100%;
+  }
+  main.main div.paragraph2 h2{
+    text-align: center;
+  }
+  main.main div.paragraph2 p.introduction{
+    width: 90%;
+    margin: 0 auto 50px;
+    line-height: 28px;
+  }
+  main.main div.paragraph2 h3{
+    text-align: center;
+  }
+
+}
+@media (max-width: 630px){
+  main.main div.paragraph2 div.message{
+    width: 100%;
+  }
+  div.wrap div.minnone{
+    display: none;
+  }
+  div.wrap div.none{
+    display: block;
+  }
+  div.wrap div.item div.clearfix{
+    margin: 0 auto;
+  }
+  main.main div.paragraph1{
+    padding: 30px 0 50px;
+  }
+  main.main div.paragraph2 div.message div.head{
+    width: 90%;
+  }
+  main.main div.paragraph2 div.message div.body{
+    width: 90%;
+  }
+  main.main div.paragraph2 div.message div.foot div.head2{
+    width: 90%;
+  }
+}
+@media (max-width: 400px){
+  main.main div.paragraph1 div.text p{
+    width: 100%;
+    white-space: normal;
+    word-break: break-word;
+  }
+  main.main div.paragraph2 div.message div.body div.food{
+    height: 300px;
+  }
+
+}

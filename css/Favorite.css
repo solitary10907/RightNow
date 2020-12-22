@@ -1,0 +1,413 @@
+main.main div.paragraph1{
+  /* border: 1px solid black; */
+  width: 1400px;
+  margin: 0px auto 50px;
+  vertical-align: top;
+}
+
+main.main div.paragraph1 div.play{
+  /* border: 1px solid red; */
+  display: inline-block;
+  width: 600px;
+  margin-right: 200px;
+
+
+}
+
+main.main div.paragraph1 div.play h1{
+  font-size: 36px;
+  color: #847072;
+  position: relative;
+  transform: translateX(-120px);
+}
+
+main.main div.paragraph1 div.food{
+ display: inline-block;
+ width: 600px;
+ vertical-align: top;
+ position: relative;
+}
+
+main.main div.paragraph1 div.food h1{
+  font-size: 36px;
+  color: #847072;
+  position: relative;
+  transform: translateX(-120px);
+}
+
+main.main div.paragraph1 div.play div.play1{
+  width: 190px;
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+}
+
+main.main div.paragraph1 div.play div.play2{
+  width: 190px;
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+}
+
+main.main div.paragraph1 div.play div.play3{
+  width: 190px;
+  display: inline-block;
+  position: relative;
+}
+
+main.main div.paragraph1 div.play div.play4{
+  width: 190px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 15px;
+  position: relative;
+}
+
+main.main div.paragraph1 div.play div.play5{
+  width: 190px;
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+}
+
+main.main div.paragraph1 div.food div.food1{
+  width: 190px;
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+}
+
+main.main div.paragraph1 div.food div.food2{
+  width: 190px;
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+}
+
+main.main div.paragraph1 div.food div.food3{
+  width: 190px;
+  display: inline-block;
+  position: relative;
+}
+
+main.main div.paragraph1 div.food div.food3{
+  width: 190px;
+  display: inline-block;
+  position: relative;
+}
+
+main.main div.paragraph1 div.food div.food4{
+  width: 190px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 15px;
+  position: relative;
+}
+
+main.main div.paragraph1 div.food div.food5{
+  width: 190px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 15px;
+  position: relative;
+}
+
+main.main div.paragraph1 div.food div.food6{
+  width: 190px;
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+}
+
+main.main div.paragraph1 div.food div.food7{
+  width: 190px;
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+}
+
+main.main div.paragraph1 div div img{
+  max-width: 100%;
+}
+
+main.main div.paragraph1 div div img.heart{
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  bottom: 113px;
+  right: 0px;
+}
+
+main.main div.paragraph1 div div h2{
+  font-size: 24px;
+  color: #847072;
+  margin: 10px 0px;
+}
+
+main.main div.paragraph1 div div textarea{
+  font-size: 16px;
+  width: 100%;
+  resize: none;
+}
+
+main.main div.paragraph1 div div textarea:focus{
+  outline: none;
+  border: 3px solid #DCC1B0;
+}
+
+@media (max-width: 1700px) and (min-width: 1431px){
+  main.main div.paragraph1 div.play h1{
+    position: relative;
+    transform: translateX(0);
+    margin-bottom: 30px;
+  }
+  main.main div.paragraph1 div.food h1{
+    position: relative;
+    transform: translateX(0);
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1430px) and (min-width: 1301px){
+  main.main div.paragraph1{
+    width: 1250px;
+    margin: 0px auto 50px;
+    vertical-align: top;
+  }
+  main.main div.paragraph1 div.play h1{
+    position: relative;
+    transform: translateX(0);
+    margin-bottom: 30px;
+  }
+  main.main div.paragraph1 div.food h1{
+    position: relative;
+    transform: translateX(0);
+    margin-bottom: 30px;
+  }
+  main.main div.paragraph1 div.play{
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1300px) and (min-width: 831px){
+  main.main div.paragraph1{
+    width: 800px;
+    margin: 0px auto 50px;
+    vertical-align: top;
+  }
+  main.main div.paragraph1 div.play{
+    width: 800px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  main.main div.paragraph1 div.play h1{
+    position: relative;
+    transform: translateX(0);
+    margin-bottom: 30px;
+  }
+  main.main div.paragraph1 div.food h1{
+    position: relative;
+    transform: translateX(0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  main.main div.paragraph1 div.play div.play1{
+    margin-right: 13px;
+  }
+  main.main div.paragraph1 div.play div.play2{
+    margin-right: 13px;
+  }
+  main.main div.paragraph1 div.play div.play3{
+    margin-right: 13px;
+  }
+  main.main div.paragraph1 div.play div.play4{
+    margin-right: 0;
+    margin-top: 0;
+  }
+  main.main div.paragraph1 div.food{
+    width: 800px;
+  }
+  main.main div.paragraph1 div.food div.food1{
+    margin-right: 13px;
+  }
+  main.main div.paragraph1 div.food div.food2{
+    margin-right: 13px;
+  }
+  main.main div.paragraph1 div.food div.food3{
+    margin-right: 13px;
+  }
+  main.main div.paragraph1 div.food div.food4{
+    margin-right: 0;
+  }
+  main.main div.paragraph1 div.food div.food5{
+    margin-right: 13px;
+  }
+  main.main div.paragraph1 div.food div.food6{
+    margin-right: 13px;
+  }
+}
+@media (max-width: 830px) and (min-width: 531px){
+  main.main div.Breadcrumb{
+    width: 90%;
+  }
+  main.main div.paragraph1{
+    width: 500px;
+    margin: 0px auto 50px;
+    vertical-align: top;
+  }
+  main.main div.paragraph1 div.play{
+    width: 500px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.play h1{
+    position: relative;
+    transform: translateX(0);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  main.main div.paragraph1 div.food h1{
+    position: relative;
+    transform: translateX(0);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  main.main div.paragraph1 div.play div.play1{
+    margin-right: 120px;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.play div.play2{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.play div.play3{
+    margin-right: 120px;
+  }
+  main.main div.paragraph1 div.play div.play4{
+    margin-right: 0;
+    margin-top: 0;
+  }
+  main.main div.paragraph1 div.play div.play5{
+    margin-top: 20px;
+  }
+  main.main div.paragraph1 div.food{
+    width: 500px;
+  }
+  main.main div.paragraph1 div.food div.food1{
+    margin-right: 120px;
+  }
+  main.main div.paragraph1 div.food div.food2{
+    margin-right: 0;
+  }
+  main.main div.paragraph1 div.food div.food3{
+    margin-right: 120px;
+  }
+  main.main div.paragraph1 div.food div.food4{
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  main.main div.paragraph1 div.food div.food5{
+    margin-right: 120px;
+    margin-top: 20px;
+  }
+  main.main div.paragraph1 div.food div.food6{
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  main.main div.paragraph1 div.food div.food7{
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 530px){
+  main.main div.Breadcrumb{
+    width: 90%;
+  }
+  main.main div.paragraph1{
+    width: 190px;
+  }
+  main.main div.paragraph1 div.play{
+    width: 190px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food{
+    width: 190px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  main.main div.paragraph1 div div h2{
+    text-align: center;
+  }
+  main.main div.paragraph1 div.play h1{
+    position: relative;
+    transform: translateX(0);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  main.main div.paragraph1 div.food h1{
+    position: relative;
+    transform: translateX(0);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  main.main div.paragraph1 div.play div.play1{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.play div.play2{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.play div.play3{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.play div.play4{
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.play div.play5{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food div.food1{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food div.food2{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food div.food3{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food div.food4{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food div.food5{
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food div.food6{
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food div.food7{
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  main.main div.paragraph1 div.food div.food8{
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
